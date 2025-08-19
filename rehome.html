@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetCare - Rehome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🐾 PetCare</div>
+    <button class="menu-toggle">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="rehome.html" class="active">Rehome</a></li>
+        <li><a href="adopt.html">Adopt</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Rehome Your Pet</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Pet Name" required>
+      <select required>
+        <option value="">Select Animal Type</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="other">Other</option>
+      </select>
+      <textarea placeholder="Describe your pet" rows="4" required></textarea>
+      <label>Upload Pet Photo:</label>
+      <input type="file" accept="image/*" required>
+      <button type="submit">Submit for Rehoming</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

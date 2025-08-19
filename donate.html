@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetCare - Donate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🐾 PetCare</div>
+    <button class="menu-toggle">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate.html" class="active">Donate</a></li>
+        <li><a href="rehome.html">Rehome</a></li>
+        <li><a href="adopt.html">Adopt</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Make a Donation</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <select required>
+        <option value="">Select Donation Amount</option>
+        <option value="100">₱100</option>
+        <option value="500">₱500</option>
+        <option value="1000">₱1000</option>
+        <option value="custom">Custom Amount</option>
+      </select>
+      <input type="number" placeholder="Custom Amount (₱)" min="1">
+      <button type="submit">Donate Now</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
